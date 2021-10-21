@@ -1,5 +1,5 @@
 # v6.  check bad patterns
-#Convert CSV file to the list of commands
+# Convert CSV file to the list of commands
 
 """
 input .csv file
@@ -16,14 +16,13 @@ what it does:
 1 - reads input file
 2 - clean-up user nput around e-mail address
 3 - report and skip lines with wrong e-mail address format
-ex: a31onh+ojrzmb2xwz9sm0bg==_1103431943983_joqjofd+eeovpnsuupqgoq==@in.constantcontact.com
-4. writes output file withp re-defined command tokens
+   ex: a31onh+ojrzmb2xwz9sm0bg==_1103431943983_joqjofd+eeovpnsuupqgoq==@in.constantcontact.com
+4. writes output file with pre-defined command tokens
 
 usage:
 python csv2cmd.py data/example.csv data/out.cmd
 
 """
-
 
 import sys
 import csv
